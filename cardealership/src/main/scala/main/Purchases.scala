@@ -9,18 +9,25 @@ object Purchases{
 
     //Make/Model Selection
     var i = 1
-    Main.carOptions.foreach((car:Car) => {
+    /*Main.carOptions.foreach((car:Car) => {
       println(i + " " + car.make + " " + car.model)
       i += 1
     })
-
+    */
+    JSONUtil.carList.foreach((car:JSONUtil.Car) => {
+      println(i + " " + car.make + " " + car.model)
+      i += 1
+    })
+    
+    /*
     var modelChoiceIndex = StdIn.readInt() -1
     val makeChoice = Main.carOptions(modelChoiceIndex).make
     val modelChoice = Main.carOptions(modelChoiceIndex).model
 
+
     println(s"Car Selected: $makeChoice $modelChoice")
     
-
+    
     //Trim Selection
     println("\nTrims:")
 
@@ -74,7 +81,7 @@ object Purchases{
     val customerPhone = StdIn.readLine()
 
     
-
+  */
 
   }
 

@@ -27,6 +27,10 @@ object CommandLine {
 
         }
 
+        case commandArgPattern(cmd, arg) if cmd == "viewsales" => {
+
+        }
+
         case commandArgPattern(cmd, arg) if cmd == "editpurchase" => {
 
         }

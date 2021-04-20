@@ -5,7 +5,7 @@ import scala.collection.mutable.ArrayBuffer
 case class Car(
   make: String, 
   model: String, 
-  trim: Array[String],
-  color: Array[String],
-  engine: Array[String]
+  trim: List[String],
+  color: List[String],
+  engine: List[String]
 )

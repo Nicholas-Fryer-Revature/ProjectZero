@@ -19,6 +19,9 @@
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar",
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.2/scalatest_2.13-3.2.2.jar",
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.2.19/postgresql-42.2.19.jar",
+            "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.3/argonaut_2.13-6.3.3.jar",
+            "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.4.0-M7/scalaz-core_2.13-7.4.0-M7.jar",
+            "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut-scalaz_2.13/6.3.3/argonaut-scalaz_2.13-6.3.3.jar",
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2.jar",
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.2/scalatest-featurespec_2.13-3.2.2.jar",
             "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.2/scalatest-flatspec_2.13-3.2.2.jar",
@@ -161,6 +164,57 @@
                     ]
                 },
                 {
+                    "organization": "io.argonaut",
+                    "name": "argonaut_2.13",
+                    "version": "6.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "argonaut_2.13",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.3/argonaut_2.13-6.3.3.jar"
+                        },
+                        {
+                            "name": "argonaut_2.13",
+                            "classifier": "sources",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut_2.13/6.3.3/argonaut_2.13-6.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalaz",
+                    "name": "scalaz-core_2.13",
+                    "version": "7.4.0-M7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalaz-core_2.13",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.4.0-M7/scalaz-core_2.13-7.4.0-M7.jar"
+                        },
+                        {
+                            "name": "scalaz-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.13/7.4.0-M7/scalaz-core_2.13-7.4.0-M7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.argonaut",
+                    "name": "argonaut-scalaz_2.13",
+                    "version": "6.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "argonaut-scalaz_2.13",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut-scalaz_2.13/6.3.3/argonaut-scalaz_2.13-6.3.3.jar"
+                        },
+                        {
+                            "name": "argonaut-scalaz_2.13",
+                            "classifier": "sources",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/io/argonaut/argonaut-scalaz_2.13/6.3.3/argonaut-scalaz_2.13-6.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.checkerframework",
                     "name": "checker-qual",
                     "version": "3.5.0",
@@ -179,23 +233,6 @@
                 },
                 {
                     "organization": "org.scala-lang",
-                    "name": "scala-library",
-                    "version": "2.13.4",
-                    "configurations": "optional",
-                    "artifacts": [
-                        {
-                            "name": "scala-library",
-                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "sources",
-                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
                     "name": "scala-reflect",
                     "version": "2.13.4",
                     "configurations": "default",
@@ -208,6 +245,23 @@
                             "name": "scala-reflect",
                             "classifier": "sources",
                             "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.4",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/nick/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
                         }
                     ]
                 },

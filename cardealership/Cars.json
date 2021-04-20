@@ -1,0 +1,99 @@
+[
+  { 
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": [
+      "SXT",
+      "GT",
+      "R/T",
+      "Hellcat"
+    ],
+    "color": [
+      "TorRed",
+      "Go Mango",
+      "Hellraisin",
+      "Pitch Black",
+      "F8 Green"
+    ],
+    "engine": [
+      "3.6 V6",
+      "5.7 V8",
+      "6.2 V8",
+      "6.4 V8"
+    ]
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": [
+      "SXT",
+      "GT",
+      "R/T",
+      "Hellcat"
+    ],
+    "color": [
+      "TorRed",
+      "Go Mango",
+      "Hellraisin",
+      "Pitch Black",
+      "F8 Green"
+    ],
+    "engine": [
+      "3.6 V6",
+      "5.7 V8",
+      "6.2 V8",
+      "6.4 V8"
+    ]
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango", 
+    "trim": [
+      "SXT",
+      "GT",
+      "R/T",
+      "Citadel",
+      "SRT",
+      "Hellcat"
+    ],
+    "color": [
+      "Redline 2",
+      "Go Mango",
+      "In-Violet",
+      "DB Black",
+      "F8 Green"
+    ],
+    "engine": [
+      "3.6 V6",
+      "5.7 V8",
+      "6.2 V8",
+      "6.4 V8"
+    ]
+  },
+  {
+    "make": "Ram",
+    "model": "1500",
+    "trim": [
+      "Limited",
+      "Limited Longhorn",
+      "Rebel",
+      "Laramie",
+      "Big Horn",
+      "Tradesman",
+      "TRX"
+    ],
+    "color": [
+      "TorRed",
+      "Go Mango",
+      "Hellraisin",
+      "Pitch Black",
+      "F8 Green"
+    ],
+    "engine": [
+      "3.0 V6 Diesel",
+      "3.6 V6",
+      "5.7 V8",
+      "6.2 V8"
+    ]
+  }
+]
