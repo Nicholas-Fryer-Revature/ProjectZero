@@ -6909,3 +6909,1906 @@ Apr 23, 2021 11:58:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 6853
 [0m2021.04.23 11:58:25 INFO  compiling root (1 scala source)[0m
 [0m2021.04.23 11:58:25 INFO  time: compiled root in 0.92s[0m
+[0m2021.04.23 12:01:40 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:01:40 INFO  time: compiled root in 0.92s[0m
+Apr 23, 2021 12:02:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6923
+Apr 23, 2021 12:03:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 23, 2021 12:03:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.04.23 12:04:02 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:04:02 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 12:04:22 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:04:22 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 12:04:56 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:04:56 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 12:05:25 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:05:25 INFO  time: compiled root in 80ms[0m
+[0m2021.04.23 12:06:23 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:06:23 INFO  time: compiled root in 0.18s[0m
+Apr 23, 2021 12:08:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7310
+[0m2021.04.23 12:08:42 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:08:42 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 12:08:51 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:08:52 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 12:08:52 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 12:08:52 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 12:08:52 INFO  time: compiled root in 1.31s[0m
+[0m2021.04.23 12:11:00 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:11:02 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 12:11:02 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 12:11:02 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 12:11:02 INFO  time: compiled root in 1.51s[0m
+Apr 23, 2021 12:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7475
+Apr 23, 2021 12:14:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7480
+[0m2021.04.23 12:17:43 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:17:43 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 12:25:58 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:25:58 INFO  time: compiled root in 0.2s[0m
+[0m2021.04.23 12:26:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:26:29 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 12:26:42 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:26:42 INFO  time: compiled root in 0.19s[0m
+[0m2021.04.23 12:27:28 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:27:28 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 12:28:06 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:28:06 INFO  time: compiled root in 0.19s[0m
+[0m2021.04.23 12:29:35 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:29:35 INFO  time: compiled root in 96ms[0m
+[0m2021.04.23 12:29:38 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:29:38 INFO  time: compiled root in 0.18s[0m
+[0m2021.04.23 12:30:17 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:30:17 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 12:31:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:31:29 INFO  time: compiled root in 0.18s[0m
+[0m2021.04.23 12:31:42 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:31:44 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 12:31:44 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 12:31:44 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 12:31:44 INFO  time: compiled root in 1.51s[0m
+Apr 23, 2021 12:31:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8283
+[0m2021.04.23 12:31:54 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:31:55 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 12:31:55 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 12:31:55 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 12:31:55 INFO  time: compiled root in 1.53s[0m
+Apr 23, 2021 12:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8304
+[0m2021.04.23 12:40:13 INFO  compiling root (1 scala source)[0m
+Apr 23, 2021 12:40:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8313
+[0m2021.04.23 12:40:13 INFO  time: compiled root in 0.82s[0m
+Apr 23, 2021 12:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8321
+[0m2021.04.23 12:40:25 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:40:25 INFO  time: compiled root in 0.85s[0m
+Apr 23, 2021 12:41:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8506
+[0m2021.04.23 12:41:43 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:41:44 INFO  time: compiled root in 1.13s[0m
+Apr 23, 2021 12:45:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8625
+Apr 23, 2021 12:46:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8637
+Apr 23, 2021 12:46:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8644
+Apr 23, 2021 12:46:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8655
+Apr 23, 2021 12:50:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8666
+Apr 23, 2021 12:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8672
+Apr 23, 2021 12:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8754
+Apr 23, 2021 12:57:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8759
+[0m2021.04.23 12:57:37 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:57:37 INFO  time: compiled root in 82ms[0m
+[0m2021.04.23 12:57:42 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:57:42 INFO  time: compiled root in 0.17s[0m
+Apr 23, 2021 12:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8898
+[0m2021.04.23 12:59:57 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 12:59:57 INFO  time: compiled root in 0.19s[0m
+[0m2021.04.23 13:00:59 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:00:59 INFO  time: compiled root in 0.16s[0m
+[0m2021.04.23 13:01:06 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:01:06 INFO  time: compiled root in 0.18s[0m
+[0m2021.04.23 13:01:45 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:01:45 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 13:02:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:02:27 INFO  time: compiled root in 0.18s[0m
+[0m2021.04.23 13:04:38 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:04:38 INFO  time: compiled root in 0.16s[0m
+[0m2021.04.23 13:04:44 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:04:46 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:04:46 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:04:46 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:04:46 INFO  time: compiled root in 1.53s[0m
+Apr 23, 2021 1:05:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9421
+Apr 23, 2021 1:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9428
+[0m2021.04.23 13:38:05 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:38:06 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:38:06 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:38:06 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:38:06 INFO  time: compiled root in 1.47s[0m
+[0m2021.04.23 13:40:36 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:40:38 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:40:38 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:40:38 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:40:38 INFO  time: compiled root in 1.47s[0m
+[0m2021.04.23 13:42:30 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:42:32 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:42:32 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:42:32 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:42:32 INFO  time: compiled root in 1.45s[0m
+[0m2021.04.23 13:42:41 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:42:43 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:42:43 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:42:43 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:42:43 INFO  time: compiled root in 1.51s[0m
+[0m2021.04.23 13:45:46 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:45:46 INFO  time: compiled root in 0.19s[0m
+[0m2021.04.23 13:46:36 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:46:36 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 13:49:20 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:49:20 INFO  time: compiled root in 0.1s[0m
+[0m2021.04.23 13:49:40 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:49:40 INFO  time: compiled root in 94ms[0m
+[0m2021.04.23 13:49:43 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:43 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:46 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:46 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:47 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:47 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:11:5: stale bloop error: '(' expected but '}' found.
+    }
+    ^[0m
+[0m2021.04.23 13:49:59 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:50:01 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:50:01 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:50:01 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:50:01 INFO  time: compiled root in 1.53s[0m
+[0m2021.04.23 13:51:02 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 13:51:04 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 13:51:04 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 13:51:04 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 13:51:04 INFO  time: compiled root in 1.57s[0m
+[0m2021.04.23 17:36:25 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 17:36:27 INFO  time: compiled root in 1.45s[0m
+Apr 23, 2021 5:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10431
+Apr 23, 2021 5:42:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10437
+[0m2021.04.23 17:43:46 INFO  compiling root (1 scala source)[0m
+Apr 23, 2021 5:43:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10448
+[0m2021.04.23 17:43:46 INFO  time: compiled root in 0.84s[0m
+[0m2021.04.23 17:44:19 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 17:44:19 INFO  time: compiled root in 0.82s[0m
+[0m2021.04.23 17:44:26 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 17:44:26 INFO  time: compiled root in 0.86s[0m
+[0m2021.04.23 17:45:18 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 17:45:18 INFO  time: compiled root in 0.97s[0m
+Apr 23, 2021 6:09:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10691
+Apr 23, 2021 6:09:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10696
+Apr 23, 2021 6:10:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10704
+Apr 23, 2021 6:10:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10709
+Apr 23, 2021 6:10:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10715
+Apr 23, 2021 6:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10721
+Apr 23, 2021 6:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10726
+Apr 23, 2021 6:11:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10863
+Apr 23, 2021 6:11:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10928
+Apr 23, 2021 6:11:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10987
+Apr 23, 2021 6:11:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10993
+[0m2021.04.23 18:12:14 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:12:14 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 18:12:20 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:12:22 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:12:22 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:12:22 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:12:22 INFO  time: compiled root in 2.39s[0m
+[0m2021.04.23 18:12:44 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:12:46 WARN  8 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:12:46 WARN  6 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:12:46 WARN  14 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:12:46 INFO  time: compiled root in 1.52s[0m
+[0m2021.04.23 18:14:51 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:14:52 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:14:52 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:14:52 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:14:52 INFO  time: compiled root in 1.26s[0m
+[0m2021.04.23 18:14:52 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:14:52 INFO  time: compiled root in 0.12s[0m
+[0m2021.04.23 18:16:10 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:16:11 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:16:11 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:16:11 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:16:11 INFO  time: compiled root in 1.32s[0m
+[0m2021.04.23 18:17:09 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:17:09 INFO  time: compiled root in 0.16s[0m
+[0m2021.04.23 18:17:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:17:29 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 18:17:56 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:17:56 INFO  time: compiled root in 0.17s[0m
+[0m2021.04.23 18:18:26 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:18:26 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 18:18:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:18:27 INFO  time: compiled root in 0.12s[0m
+[0m2021.04.23 18:21:12 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:21:13 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:21:13 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:21:13 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:21:13 INFO  time: compiled root in 1.28s[0m
+[0m2021.04.23 18:22:10 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 18:22:11 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 18:22:11 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 18:22:11 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 18:22:11 INFO  time: compiled root in 1.32s[0m
+Apr 23, 2021 6:23:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11757
+[0m2021.04.23 19:00:05 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:00:05 INFO  time: compiled root in 0.14s[0m
+[0m2021.04.23 19:00:49 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:00:49 INFO  time: compiled root in 0.14s[0m
+Apr 23, 2021 7:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12070
+[0m2021.04.23 19:01:00 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:01:00 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 19:01:08 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:01:08 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.23 19:01:54 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:01:54 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.23 19:02:00 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:02:00 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 19:02:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:02:27 INFO  time: compiled root in 0.16s[0m
+[0m2021.04.23 19:02:55 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:02:55 INFO  time: compiled root in 0.12s[0m
+[0m2021.04.23 19:03:06 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:07 INFO  time: compiled root in 1.22s[0m
+[0m2021.04.23 19:03:07 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:07 INFO  time: compiled root in 64ms[0m
+[0m2021.04.23 19:03:18 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:20 INFO  time: compiled root in 1.26s[0m
+[0m2021.04.23 19:03:20 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:20 INFO  time: compiled root in 57ms[0m
+Apr 23, 2021 7:03:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12339
+[0m2021.04.23 19:03:33 INFO  compiling root (2 scala sources)[0m
+[0m2021.04.23 19:03:34 INFO  time: compiled root in 1.29s[0m
+[0m2021.04.23 19:03:38 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:38 INFO  time: compiled root in 0.87s[0m
+[0m2021.04.23 19:03:42 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:42 INFO  time: compiled root in 0.88s[0m
+[0m2021.04.23 19:03:45 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:03:45 INFO  time: compiled root in 0.95s[0m
+Apr 23, 2021 7:04:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12391
+Apr 23, 2021 7:08:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12398
+[0m2021.04.23 19:08:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:08:29 INFO  time: compiled root in 0.14s[0m
+[0m2021.04.23 19:09:07 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:09:08 WARN  4 deprecations (since 2.13.0)[0m
+[0m2021.04.23 19:09:08 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.23 19:09:08 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.23 19:09:08 INFO  time: compiled root in 1.32s[0m
+[0m2021.04.23 19:13:08 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:13:09 INFO  time: compiled root in 1.25s[0m
+[0m2021.04.23 19:14:43 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:14:44 INFO  time: compiled root in 1.26s[0m
+[0m2021.04.23 19:16:39 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:16:40 INFO  time: compiled root in 1.32s[0m
+Apr 23, 2021 7:18:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12657
+Apr 23, 2021 7:19:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12662
+[0m2021.04.23 19:22:11 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:22:11 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 19:23:04 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:23:04 INFO  time: compiled root in 0.14s[0m
+[0m2021.04.23 19:23:18 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:23:19 INFO  time: compiled root in 1.33s[0m
+[0m2021.04.23 19:23:44 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:23:46 INFO  time: compiled root in 1.31s[0m
+[0m2021.04.23 19:27:17 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:27:17 INFO  time: compiled root in 77ms[0m
+[0m2021.04.23 19:27:25 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:27:27 INFO  time: compiled root in 1.37s[0m
+[0m2021.04.23 19:27:50 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:27:51 INFO  time: compiled root in 1.35s[0m
+[0m2021.04.23 19:31:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:31:28 INFO  time: compiled root in 1.36s[0m
+[0m2021.04.23 19:33:26 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:33:28 INFO  time: compiled root in 1.41s[0m
+[0m2021.04.23 19:33:45 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:33:46 INFO  time: compiled root in 1.41s[0m
+[0m2021.04.23 19:33:57 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:33:59 INFO  time: compiled root in 1.4s[0m
+[0m2021.04.23 19:34:17 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:34:17 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.23 19:34:40 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:34:40 INFO  time: compiled root in 0.18s[0m
+[0m2021.04.23 19:34:48 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:34:48 INFO  time: compiled root in 0.14s[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:34:58 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:29 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:30 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:31 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:32 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+Apr 23, 2021 7:35:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13561
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:34 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:36 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:38 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:7: stale bloop error: not found: value stmt
+      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
+      ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:108:7: stale bloop error: not found: value stmt
+      stmt.setString(1, customer.firstName)
+      ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:109:7: stale bloop error: not found: value stmt
+      stmt.setString(2, customer.lastName)
+      ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:110:7: stale bloop error: not found: value stmt
+      stmt.setString(3, customer.phone)
+      ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:111:7: stale bloop error: not found: value stmt
+      stmt.execute()
+      ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:113:7: stale bloop error: not found: value res
+      res = stmt.getResultSet()
+      ^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:114:7: stale bloop error: not found: value res
+      res.next()
+      ^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:115:20: stale bloop error: not found: value res
+      customerID = res.getInt(1)
+                   ^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:122:5: stale bloop error: not found: value stmt
+    stmt = conn.prepareStatement("INSERT INTO purchases VALUES (DEFAULT, ?, ?, ?, ?, ?, ?, DEFAULT, ?);")
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:123:5: stale bloop error: not found: value stmt
+    stmt.setString(1, car.make)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:124:5: stale bloop error: not found: value stmt
+    stmt.setString(2, car.model)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:125:5: stale bloop error: not found: value stmt
+    stmt.setString(3, car.trim)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:126:5: stale bloop error: not found: value stmt
+    stmt.setString(4, car.color)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:127:5: stale bloop error: not found: value stmt
+    stmt.setString(5, car.engine)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:128:5: stale bloop error: not found: value stmt
+    stmt.setFloat(6, car.price)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:129:5: stale bloop error: not found: value stmt
+    stmt.setInt(7, customerID)
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:130:5: stale bloop error: not found: value stmt
+    stmt.execute()
+    ^^^^[0m
+[0m2021.04.23 19:35:39 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:39 INFO  time: compiled root in 86ms[0m
+[0m2021.04.23 19:35:54 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:54 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:54 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:54 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+Apr 23, 2021 7:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13584
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:107:5: stale bloop error: unclosed comment
+    /*
+    ^[0m
+[0m2021.04.23 19:35:55 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/DAO.scala:137:2: stale bloop error: Missing closing brace `}` assumed here
+}
+ ^[0m
+[0m2021.04.23 19:35:57 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:35:57 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.23 19:36:01 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:36:03 INFO  time: compiled root in 1.3s[0m
+[0m2021.04.23 19:47:34 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:47:35 INFO  time: compiled root in 1.39s[0m
+[0m2021.04.23 19:47:39 INFO  compiling root (1 scala source)[0m
+[0m2021.04.23 19:47:41 INFO  time: compiled root in 1.38s[0m
+Apr 23, 2021 7:48:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13851
+Apr 23, 2021 7:48:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13860
+Apr 23, 2021 7:49:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13873
