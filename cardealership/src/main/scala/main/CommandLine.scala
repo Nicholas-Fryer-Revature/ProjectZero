@@ -8,14 +8,18 @@ object CommandLine {
   val commandArgPattern: Regex = "(\\w+)\\s*(\\w*)".r
 
   def welcomeMessage(): Unit = {
-    println("\nWelcome to Dealership Manager\n\nBasic Commands: new, view, edit, delete, help, exit")
+    println("\nWelcome to Dealership Manager")
+  }
+
+  def commandMessage(): Unit = {
+    println("\nBasic Commands: new, view, edit, delete, help, exit")
   }
 
   def menu(): Unit = {
     var runLoop = true; 
 
     while(runLoop){
-
+      commandMessage()
       var input = StdIn.readLine()
 
       input match {
@@ -25,11 +29,17 @@ object CommandLine {
           Purchases.newPurchase()
         }
 
+
         //READ
         
-        //View purchase of 1 customer
-        case commandArgPattern(cmd1, cmd2) if cmd1 == "view purchase" => {
+        //View All Customers Ever
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "view" && cmd2 == "customers" => {
+          DAO.printCustomers()
+        }
 
+        //View purchase of 1 customer
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "view" && cmd2 == "purchases" => {
+          Purchases.viewPurchases()
         }
 
         //view sum of orders by brand
@@ -52,6 +62,12 @@ object CommandLine {
 
         }
 
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "view" && cmd2 == "help" => {
+          println("\nView Commands")
+          println("customers-------View All Customers Ever")
+          println("purchases-------View All Purchases From 1 Customer")
+        }
+
         //idk
         case commandArgPattern(cmd1, cmd2) if cmd1 == "view sales" => {
 
@@ -61,28 +77,48 @@ object CommandLine {
 
         //edit purchase info based on purchaser's credentials
         case commandArgPattern(cmd1, cmd2) if cmd1 == "edit" && cmd2 == "purchase" => {
-
+          Purchases.updatePurchase()
         }
 
         //edit customer information
         case commandArgPattern(cmd1, cmd2) if cmd1 == "edit" && cmd2 == "customer" => {
-
+          Purchases.updateCustomer()
         }
 
         case commandArgPattern(cmd1, cmd2) if cmd1 == "edit" && cmd2 == "help" => {
-          println("edit: purchase/customer")
+          println("\nEdit Commands")
+          println("purchase-------Edit A Customer's Purchase Information")
+          println("customer-------Edit A Customer's Personal Information")
         }
 
         //DELETE
 
         //Delete a purchase row in db
-        case commandArgPattern(cmd1, cmd2) if cmd1 == "delete purchase" => {
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "delete" && cmd2 == "purchase" => {
+          Purchases.deletePurchase()
+        }
 
+        //Delete customer and their purchases from DB
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "delete" && cmd2 == "customer" => {
+          Purchases.deleteCustomer()
+        }
+
+        case commandArgPattern(cmd1, cmd2) if cmd1 == "delete" && cmd2 == "help" => {
+          println("\nDelete Commands")
+          println("purchase-------Delete A Customer's Purchase")
+          println("customer-------Delete A Customer And Their Purchases")
         }
 
 
+        
         case commandArgPattern(cmd1, cmd2) if cmd1 == "help" => {
-          println("\nnew, view, edit, delete, help, exit")
+          commandMessage()
+          println("new--------Enter A New Purchase")
+          println("view-------View Purchases")
+          println("edit-------Edit Purchases And Customers")
+          println("delete-----Delete Purchases And Customers")
+          println("help-------\"basic command\" + help Prints Available Commands.")
+          println("exit-------Exit The Program")
         }
 
         case commandArgPattern(cmd1, cmd2) if cmd1 == "exit" => {
@@ -90,15 +126,8 @@ object CommandLine {
         }
         
         case _ => {
-          println("Unrecognized Command From My Program")
+          println("Unrecognized Command")
         }
-
-
-
-        //update customer
-        //Help ?
-        //command ?
-
       }
     }
     println("\nGoodbye!")

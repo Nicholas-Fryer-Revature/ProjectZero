@@ -19,8 +19,9 @@ object Main{
   */
 
   def main(args: Array[String]): Unit = {
-    DAO.viewAll()
-    DAO.testExists("Nic")
+    //DAO.viewAll()
+    //DAO.testExists("Nic")
+    //DAO.printCustomers()
     //DAO.insertPuchase("Nick", "Fryer", "419-217-7041", "9404 Bemis Rd Bellevue, OH 44811", "Dodge", "Charger", "R/T", "Go Mango", "5.7 V8", 30000)
     CommandLine.welcomeMessage()
     CommandLine.menu()

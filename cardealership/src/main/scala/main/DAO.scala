@@ -1,6 +1,8 @@
 package main
 
 import util.PostgreSQLUtil
+import scala.collection.mutable.ArrayBuffer
+import java.sql.ResultSet
 
 object DAO{
   
@@ -66,7 +68,9 @@ object DAO{
   } 
 
 
-//CREATE new purchase and/or customer
+  //CREATE
+
+  //CREATE new purchase and/or customer
   def insertPuchase(customer: Customer, car: CarConfig): Unit ={
     
     val conn = PostgreSQLUtil.getConnection()
@@ -133,6 +137,124 @@ object DAO{
     stmt.execute()
     println("Added New Purchase Into Database!\n")
 
+    conn.close()
+  }
+
+
+  //READ
+
+  //Print Entire customers table
+  def printCustomers(): Unit ={
+    val conn = PostgreSQLUtil.getConnection()
+
+    val stmt = conn.prepareStatement("SELECT * FROM customers ORDER BY first_name")
+    stmt.execute()
+
+    val rs = stmt.getResultSet()
+    while(rs.next) {
+      println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + "\t" + rs.getString(4)+  "\t" + rs.getString(5))
+    }
+    conn.close()
+  }
+
+
+
+  //Return ArrayBuffer of Customer IDs as ints
+  def getCustomerIDs(): ArrayBuffer[Int] ={
+    val conn = PostgreSQLUtil.getConnection()
+    var customerIDs = new ArrayBuffer[Int]
+
+    val stmt = conn.prepareStatement("Select customer_id FROM customers;")
+    stmt.execute()
+
+    val rs = stmt.getResultSet()
+    while(rs.next){
+      customerIDs.addOne(rs.getInt(1))
+    }
+    conn.close()
+    customerIDs
+  }
+
+
+  //Get Purchases by customer_ID
+  def getCustomerPurchases(customer_id: Int): ResultSet ={
+    val conn = PostgreSQLUtil.getConnection()
+    
+    val stmt = conn.prepareStatement("SELECT * FROM purchases WHERE customer_fk = ? ORDER BY purchase_id")
+    stmt.setInt(1, customer_id)
+    stmt.execute()
+
+    val res = stmt.getResultSet()
+    conn.close()
+    res
+  }
+
+
+  //UPDATE
+
+  //UPDATE purchase information
+  def writeUpdatePurchase(car: CarConfig, purchaseID: Int): Unit ={
+    val conn = PostgreSQLUtil.getConnection()
+
+    val stmt = conn.prepareStatement("UPDATE purchases SET make = ?, model = ?, trim = ?, color = ?, engine = ?, price = ? WHERE purchase_id = ?")
+    stmt.setString(1, car.make)
+    stmt.setString(2, car.model)
+    stmt.setString(3, car.trim)
+    stmt.setString(4, car.color)
+    stmt.setString(5, car.engine)
+    stmt.setFloat(6, car.price)
+    stmt.setInt(7, purchaseID)
+    stmt.execute()
+    
+    println("\nSuccessfully Updated Purchase Entry!")
+    conn.close()
+  }
+
+  //UPDATE customer information, NEED TEST
+  def writeUpdateCustomer(customer: Customer, customerID: Int): Unit ={
+    val conn = PostgreSQLUtil.getConnection()
+
+    val stmt = conn.prepareStatement("UPDATE customers SET first_name = ?, last_name = ?, phone = ?, address = ? WHERE customer_id = ?;")
+    stmt.setString(1, customer.firstName)
+    stmt.setString(2, customer.lastName)
+    stmt.setString(3, customer.phone)
+    stmt.setString(4, customer.address)
+    stmt.setInt(5, customerID)
+    stmt.execute()
+
+    println("\nSuccessfully Updated Customer Entry!")
+    conn.close()
+  }
+
+  //DELETE
+
+  //DELETE Customer & Cars purchased from customer
+  def deleteCustomerEntry(customerID: Int): Unit ={
+    val conn = PostgreSQLUtil.getConnection()
+
+    //Delete purchases from DB with cusomer ID
+    var stmt = conn.prepareStatement("DELETE FROM purchases WHERE customer_fk = ?;")
+    stmt.setInt(1, customerID)
+    stmt.execute()
+
+    //Delete customer from DB
+    stmt = conn.prepareStatement("DELETE FROM customers WHERE customer_id = ?;")
+    stmt.setInt(1, customerID)
+    stmt.execute()
+
+    println("\nSuccessfully Deleted Customer Entry!")
+    conn.close()
+  }
+
+  //DELETE Car Purchase
+  def deletePurchaseEntry(purchaseID: Int): Unit ={
+    val conn = PostgreSQLUtil.getConnection()
+
+    val stmt = conn.prepareStatement("DELETE FROM purchases WHERE purchase_id = ?;")
+    stmt.setInt(1, purchaseID)
+    stmt.execute()
+
+    println("\nSucessfully Deleted Purchase Entry!")
     conn.close()
   }
 }

@@ -1,6 +1,6 @@
 package main
 import scala.io.StdIn
-
+import java.sql.ResultSet
 
 object Purchases{
 
@@ -91,7 +91,7 @@ object Purchases{
     car
   }
 
-
+  //Return Customer Information based on User Input
   def getCustomerInfo(): Customer ={
     println("\nPurchaser's First Name:")
     val customerFirstName = StdIn.readLine()
@@ -112,119 +112,119 @@ object Purchases{
   def newPurchase(): Unit ={
     val newCarConfig = getCarChoice()
     val purchaser = getCustomerInfo()
-
     DAO.insertPuchase(purchaser, newCarConfig)
   }
 
-
-/*
-  def newPurchase(): Unit = {
-    println("Cars Available: ")
-
-  //Make/Model Selection
-    
-    /*Main.carOptions.foreach((car:Car) => {
-      println(i + " " + car.make + " " + car.model)
-      i += 1
-    })
-    */
-    
-    var i = 1
-    JSONUtil.carList.foreach((car:Car) => {
-      println(i + " " + car.make + " " + car.model)
-      i += 1
-    })
-    
-
-    var modelChoiceIndex = StdIn.readInt() -1
-    val makeChoice = JSONUtil.carList(modelChoiceIndex).make
-    val modelChoice = JSONUtil.carList(modelChoiceIndex).model
-
-
-    println(s"Car Selected: $makeChoice $modelChoice")
-    
-    
-  //Trim Selection
-    println("\nTrims:")
-
-    i = 1; 
-    JSONUtil.carList(modelChoiceIndex).trim.foreach((trim:String) => {
-      println(i + " " + trim)
-      i += 1
-    })
-
-    var trimChoice = JSONUtil.carList(modelChoiceIndex).trim(StdIn.readInt -1)
-    println(s"Trim Selected: $trimChoice")
-
-
-  //Color Selection
-    println("\nColors:")
-
-    i = 1; 
-    JSONUtil.carList(modelChoiceIndex).color.foreach((color:String) => {
-      println(i + " " + color)
-      i += 1
-    })
-
-    var colorChoice = JSONUtil.carList(modelChoiceIndex).color(StdIn.readInt -1)
-    println(s"Color Selected: $colorChoice")
-
-
-  //Engine Selection
-    println("\nEngines:")
-
-    i = 1; 
-    JSONUtil.carList(modelChoiceIndex).engine.foreach((engine:String) => {
-      println(i + " " + engine)
-      i += 1
-    })
-
-    var engineChoice = JSONUtil.carList(modelChoiceIndex).engine(StdIn.readInt -1)
-    println(s"Engine Selected: $engineChoice")
-
-    println(s"\nCar Selected: $makeChoice $modelChoice $trimChoice $engineChoice $colorChoice")
-    
-  //Get Customer Info & Price  
-    println("\nPrice:")
-    val carPrice = StdIn.readFloat()
-    
-    println("\nPurchaser's Name:")
-    val customerName = StdIn.readLine()
-
-    println("\nAddress:")
-    val customerAddress = StdIn.readLine()
-
-    println("\nPhone Number:")
-    val customerPhone = StdIn.readLine()
-
-
-  //Call DAO insertPurchase here
-  }
-*/
-
-  //View Purchase Based on Customer name & Address?
-  def viewPurchase(): Unit = {
-
+  def viewCustomers(): Unit ={
 
 
   }
+
+  //View Purchase Based on Customer name & phone?
+  def viewPurchases(): Unit = {
+    val customer = getCustomerInfo()
+    val customerID = DAO.testCustomerExists(customer)
+    if(customerID != 0){
+      val res = DAO.getCustomerPurchases(customerID)
+      while(res.next()){
+        println(res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+      }
+    }
+    else{
+      println("Customer Not Found")
+    }
+  }
+
+  //view list of customers and IDs
   //view makeOrders sum of orders by brand and each models total
   //view ModelOrders sum of orders of model
   //view TotalOrders total number of orders, maybe of each model
   //view TotalSales sum of sales
 
-  def editPurchase(): Unit = {
 
+  //UPDATE
 
+  def updatePurchase(): Unit = {
+    val customer = getCustomerInfo()
+    val customerID = DAO.testCustomerExists(customer)
+    if(customerID != 0){
+      val res = DAO.getCustomerPurchases(customerID)
+      while(res.next()){
+        println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+      }
+      val orderID = StdIn.readInt()
+      val car = getCarChoice()
+      DAO.writeUpdatePurchase(car, orderID)
+    }
+    else{
+      println("Customer Not Found")
+    }
 
+    //print thier orders,
+    //get thier order ID
+    //ask for order ID
+    //get car config
+    //update on DAO method
   }
 
+  def updateCustomer(): Unit ={
+    //Print List of customers and IDs (at least).... READ Function
+    val customer = getCustomerInfo()
+    val customerID = DAO.testCustomerExists(customer)
+    if(customerID != 0){
+      println("\nEnter Updated Info:")
+      val updatedCustomer = getCustomerInfo()
+      DAO.writeUpdateCustomer(updatedCustomer, customerID)
+    }
+    else{
+      println("Customer Not Found")
+    }
+
+    //Ask for input of ID
+    //Check if ID input is valid
+    //getCustomerInfo()
+    //Write to DB where ID = input
+
+    /**
+      * Need to check the DB if exists, if you donk up inserting with a typo itll write a new 
+      * customer. Thus, when you update, after you make the change you need to check if it exists, 
+      * if it does, delete the donked up one. You would then have to change reference of the FK 
+      * in the purchases of the donked up customer insert to the correct one, so in delete function 
+      * need to have the customer and purchase deletes separate
+      */
+
+    //DAO.printCustomers()
+    //var customerID = StdIn.readInt()
+
+    
+  }
+
+  //DELETE
   def deletePurchase(): Unit = {
-
-
-
+    val customer = getCustomerInfo()
+    val customerID = DAO.testCustomerExists(customer)
+    if(customerID != 0){
+      val res = DAO.getCustomerPurchases(customerID)
+      while(res.next()){
+        println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+      }
+      val orderID = StdIn.readInt()
+      DAO.deletePurchaseEntry(orderID)
+    }
+    else{
+      println("Customer Not Found")
+    }
   }
 
-
+  def deleteCustomer(): Unit = {
+    val customer = getCustomerInfo()
+    val customerID = DAO.testCustomerExists(customer)
+    if(customerID != 0){
+      DAO.deleteCustomerEntry(customerID)
+    }
+    else{
+      println("Customer Not Found")
+    }
+  }
 
 }
