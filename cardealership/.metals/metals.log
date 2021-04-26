@@ -9925,3 +9925,317 @@ Apr 25, 2021 3:22:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 3468
 [0m2021.04.25 15:50:47 INFO  compiling root (1 scala source)[0m
 [0m2021.04.25 15:50:47 INFO  time: compiled root in 0.92s[0m
+[0m2021.04.25 15:55:24 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 15:55:24 INFO  time: compiled root in 0.94s[0m
+Apr 25, 2021 4:11:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3554
+Apr 25, 2021 5:07:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3560
+Apr 25, 2021 5:52:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3575
+Apr 25, 2021 6:01:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3584
+Apr 25, 2021 7:32:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3602
+Apr 25, 2021 7:32:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3608
+Apr 25, 2021 7:33:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3620
+Apr 25, 2021 7:33:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3628
+[0m2021.04.25 19:33:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:33:30 INFO  time: compiled root in 1.01s[0m
+[0m2021.04.25 19:37:09 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:37:10 INFO  time: compiled root in 1.03s[0m
+[0m2021.04.25 19:38:08 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:38:09 INFO  time: compiled root in 1.19s[0m
+[0m2021.04.25 19:38:24 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:38:25 INFO  time: compiled root in 1.22s[0m
+[0m2021.04.25 19:38:32 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:38:33 INFO  time: compiled root in 1.18s[0m
+Apr 25, 2021 7:39:00 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Apr 25, 2021 7:39:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.04.25 19:39:21 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:39:21 INFO  time: compiled root in 0.14s[0m
+[0m2021.04.25 19:43:17 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:43:17 INFO  time: compiled root in 0.1s[0m
+[0m2021.04.25 19:43:32 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:43:32 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.25 19:43:37 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:43:39 INFO  time: compiled root in 1.24s[0m
+Apr 25, 2021 7:44:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4062
+Apr 25, 2021 7:44:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4064
+Apr 25, 2021 7:44:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4065
+[0m2021.04.25 19:44:47 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:44:48 INFO  time: compiled root in 1.16s[0m
+[0m2021.04.25 19:46:12 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:46:12 INFO  time: compiled root in 99ms[0m
+[0m2021.04.25 19:46:16 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:46:16 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.25 19:46:33 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:46:34 INFO  time: compiled root in 1.29s[0m
+[0m2021.04.25 19:54:39 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:54:39 INFO  time: compiled root in 0.14s[0m
+Apr 25, 2021 7:54:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4508
+Apr 25, 2021 7:54:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4511
+[0m2021.04.25 19:54:47 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:54:47 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.25 19:56:06 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:56:06 INFO  time: compiled root in 0.15s[0m
+[0m2021.04.25 19:56:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:56:28 INFO  time: compiled root in 1.22s[0m
+[0m2021.04.25 19:56:32 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:56:33 INFO  time: compiled root in 1.19s[0m
+[0m2021.04.25 19:59:51 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 19:59:52 INFO  time: compiled root in 1.24s[0m
+[0m2021.04.25 20:00:17 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:00:17 INFO  time: compiled root in 0.13s[0m
+[0m2021.04.25 20:00:29 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:00:31 INFO  time: compiled root in 1.26s[0m
+[0m2021.04.25 20:00:39 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:00:41 INFO  time: compiled root in 1.27s[0m
+[0m2021.04.25 20:01:01 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:01:02 INFO  time: compiled root in 1.26s[0m
+[0m2021.04.25 20:01:06 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:01:07 INFO  time: compiled root in 1.24s[0m
+[0m2021.04.25 20:01:21 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:01:24 INFO  time: compiled root in 2.97s[0m
+[0m2021.04.25 20:28:23 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:28:24 INFO  time: compiled root in 1.24s[0m
+[0m2021.04.25 20:32:35 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:32:35 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:35 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:35 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:35 INFO  time: compiled root in 77ms[0m
+[0m2021.04.25 20:32:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:39 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:40 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:41 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:47 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:47 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:50 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:50 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:50 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:50 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:51 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:51 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:57 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:57 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:32:57 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:32:57 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:33:05 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:33:05 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:33:07 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:33:07 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:33:07 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:8:3: stale bloop error: unclosed comment
+  /*
+  ^[0m
+[0m2021.04.25 20:33:07 INFO  /home/nick/scalaprojects/project0/cardealership/src/main/scala/main/Purchases.scala:212:2: stale bloop error: '}' expected but eof found.
+}
+ ^[0m
+[0m2021.04.25 20:33:09 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:33:11 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 20:33:11 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.25 20:33:11 WARN  9 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 20:33:11 INFO  time: compiled root in 1.77s[0m
+[0m2021.04.25 20:33:23 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:33:24 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 20:33:24 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.25 20:33:24 WARN  9 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 20:33:24 INFO  time: compiled root in 1.51s[0m
+[0m2021.04.25 20:44:02 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 20:44:03 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 20:44:03 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.25 20:44:03 WARN  9 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 20:44:03 INFO  time: compiled root in 1.62s[0m
+Apr 25, 2021 9:00:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5332
+[0m2021.04.25 21:02:12 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:02:12 INFO  time: compiled root in 0.21s[0m
+Apr 25, 2021 9:12:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5563
+[0m2021.04.25 21:13:09 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:13:10 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:13:10 WARN  3 deprecations (since 2.13.3)[0m
+[0m2021.04.25 21:13:10 WARN  9 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:13:10 INFO  time: compiled root in 1.65s[0m
+[0m2021.04.25 21:13:27 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:13:28 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:13:28 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.25 21:13:28 WARN  8 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:13:28 INFO  time: compiled root in 1.61s[0m
+[0m2021.04.25 21:15:11 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:15:12 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:15:12 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.25 21:15:12 WARN  8 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:15:12 INFO  time: compiled root in 1.59s[0m
+[0m2021.04.25 21:15:24 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:15:26 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:15:26 WARN  2 deprecations (since 2.13.3)[0m
+[0m2021.04.25 21:15:26 WARN  8 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:15:26 INFO  time: compiled root in 1.6s[0m
+[0m2021.04.25 21:15:40 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:15:42 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:15:42 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.04.25 21:15:42 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:15:42 INFO  time: compiled root in 1.63s[0m
+[0m2021.04.25 21:16:05 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:16:06 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:16:06 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.04.25 21:16:06 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:16:06 INFO  time: compiled root in 1.57s[0m
+[0m2021.04.25 21:16:44 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:16:45 WARN  6 deprecations (since 2.13.0)[0m
+[0m2021.04.25 21:16:45 WARN  1 deprecation (since 2.13.3)[0m
+[0m2021.04.25 21:16:45 WARN  7 deprecations in total; re-run with -deprecation for details[0m
+[0m2021.04.25 21:16:45 INFO  time: compiled root in 1.65s[0m
+[0m2021.04.25 21:17:15 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:17:17 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.25 21:17:17 INFO  time: compiled root in 1.75s[0m
+[0m2021.04.25 21:17:55 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:17:57 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.25 21:17:57 INFO  time: compiled root in 2.32s[0m
+[0m2021.04.25 21:19:31 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:19:33 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.25 21:19:33 INFO  time: compiled root in 1.69s[0m
+[0m2021.04.25 21:22:16 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:22:17 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.04.25 21:22:17 INFO  time: compiled root in 1.84s[0m
+Apr 25, 2021 9:36:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6110
+[0m2021.04.25 21:36:58 INFO  compiling root (1 scala source)[0m
+[0m2021.04.25 21:36:59 INFO  time: compiled root in 1.09s[0m

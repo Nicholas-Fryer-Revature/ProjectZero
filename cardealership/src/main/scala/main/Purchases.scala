@@ -1,29 +1,9 @@
 package main
 import scala.io.StdIn
 import java.sql.ResultSet
+import util.InputValidation
 
 object Purchases{
-
-  //Input Validation
-  /*
-  def checkChoice(length: Int): Int ={
-    var inValidChoice = true
-    while(inValidChoice){
-      if
-    }
-  }
-
-  def checkNum(): Float ={
-
-
-  }
-
-  def checkPhone(): String ={
-
-
-  }
-  */
-
 
   def getCarChoice(): CarConfig ={
      println("Cars Available: ")
@@ -35,7 +15,8 @@ object Purchases{
       i += 1
     })
     
-    var modelChoiceIndex = StdIn.readInt() -1
+    var modelChoiceIndex = InputValidation.testChoice(JSONUtil.carList.length)
+    //var modelChoiceIndex = StdIn.readInt() -1
     val makeChoice = JSONUtil.carList(modelChoiceIndex).make
     val modelChoice = JSONUtil.carList(modelChoiceIndex).model
 
@@ -51,7 +32,8 @@ object Purchases{
       i += 1
     })
 
-    var trimChoice = JSONUtil.carList(modelChoiceIndex).trim(StdIn.readInt -1)
+    val trimChoiceIndex = InputValidation.testChoice(JSONUtil.carList(modelChoiceIndex).trim.length)
+    val trimChoice = JSONUtil.carList(modelChoiceIndex).trim(trimChoiceIndex)
     println(s"Trim Selected: $trimChoice")
 
 
@@ -64,7 +46,8 @@ object Purchases{
       i += 1
     })
 
-    var colorChoice = JSONUtil.carList(modelChoiceIndex).color(StdIn.readInt -1)
+    val colorChoiceIndex = InputValidation.testChoice(JSONUtil.carList(modelChoiceIndex).color.length)
+    val colorChoice = JSONUtil.carList(modelChoiceIndex).color(colorChoiceIndex)
     println(s"Color Selected: $colorChoice")
 
 
@@ -77,17 +60,19 @@ object Purchases{
       i += 1
     })
 
-    var engineChoice = JSONUtil.carList(modelChoiceIndex).engine(StdIn.readInt -1)
+    val engineChoiceIndex = InputValidation.testChoice(JSONUtil.carList(modelChoiceIndex).engine.length)
+    val engineChoice = JSONUtil.carList(modelChoiceIndex).engine(engineChoiceIndex)
     println(s"Engine Selected: $engineChoice")
 
     println(s"\nCar Selected: $makeChoice $modelChoice $trimChoice $engineChoice $colorChoice")
     
   //Get Price  
     println("\nPrice:")
-    val carPrice = StdIn.readFloat()
+    val carPrice = InputValidation.testPrice()
+    //val carPrice = StdIn.readFloat()
 
   //Return case class car
-    var car = CarConfig(makeChoice, modelChoice, trimChoice, colorChoice, engineChoice, price = carPrice) 
+    val car = CarConfig(makeChoice, modelChoice, trimChoice, colorChoice, engineChoice, price = carPrice) 
     car
   }
 
@@ -100,7 +85,8 @@ object Purchases{
     val customerLastName = StdIn.readLine()
     
     println("\nPhone Number:")
-    val customerPhone = StdIn.readLine()
+    val customerPhone = InputValidation.testPhone()
+    //val customerPhone = StdIn.readLine()
     
     println("\nAddress:")
     val customerAddress = StdIn.readLine()
