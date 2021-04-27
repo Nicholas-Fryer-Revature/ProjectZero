@@ -8,7 +8,7 @@ object Purchases{
   def getCarChoice(): CarConfig ={
      println("Cars Available: ")
   
-  //Make & Model Selection
+    //Make & Model Selection
     var i = 1
     JSONUtil.carList.foreach((car:Car) => {
       println(i + " " + car.make + " " + car.model)
@@ -16,14 +16,12 @@ object Purchases{
     })
     
     var modelChoiceIndex = InputValidation.testChoice(JSONUtil.carList.length)
-    //var modelChoiceIndex = StdIn.readInt() -1
     val makeChoice = JSONUtil.carList(modelChoiceIndex).make
     val modelChoice = JSONUtil.carList(modelChoiceIndex).model
 
     println(s"Car Selected: $makeChoice $modelChoice")
     
-    
-  //Trim Selection
+    //Trim Selection
     println("\nTrims:")
 
     i = 1; 
@@ -36,8 +34,7 @@ object Purchases{
     val trimChoice = JSONUtil.carList(modelChoiceIndex).trim(trimChoiceIndex)
     println(s"Trim Selected: $trimChoice")
 
-
-  //Color Selection
+    //Color Selection
     println("\nColors:")
 
     i = 1; 
@@ -50,8 +47,7 @@ object Purchases{
     val colorChoice = JSONUtil.carList(modelChoiceIndex).color(colorChoiceIndex)
     println(s"Color Selected: $colorChoice")
 
-
-  //Engine Selection
+    //Engine Selection
     println("\nEngines:")
 
     i = 1; 
@@ -66,12 +62,11 @@ object Purchases{
 
     println(s"\nCar Selected: $makeChoice $modelChoice $trimChoice $engineChoice $colorChoice")
     
-  //Get Price  
+    //Get Price  
     println("\nPrice:")
     val carPrice = InputValidation.testPrice()
-    //val carPrice = StdIn.readFloat()
 
-  //Return case class car
+    //Return case class car
     val car = CarConfig(makeChoice, modelChoice, trimChoice, colorChoice, engineChoice, price = carPrice) 
     car
   }
@@ -86,7 +81,6 @@ object Purchases{
     
     println("\nPhone Number:")
     val customerPhone = InputValidation.testPhone()
-    //val customerPhone = StdIn.readLine()
     
     println("\nAddress:")
     val customerAddress = StdIn.readLine()
@@ -96,6 +90,20 @@ object Purchases{
   }
 
   //*********Get Customer name, number for queries************
+  def searchCustomer(): Customer ={
+    println("\nPurchaser's First Name:")
+    val customerFirstName = StdIn.readLine()
+
+    println("\nPurchaser's Last Name:")
+    val customerLastName = StdIn.readLine()
+    
+    println("\nPhone Number:")
+    val customerPhone = InputValidation.testPhone()
+
+    val customerAddress = ""
+    val customer = Customer(customerFirstName, customerLastName, customerPhone, customerAddress)
+    customer
+  }
 
 
   //CREATE
@@ -112,21 +120,21 @@ object Purchases{
 
   }
 
-  //View Purchase Based on Customer name & phone?
+  //View Purchase Based on Customer name & phone
   def viewPurchases(): Unit = {
-    val customer = getCustomerInfo()
+    val customer = searchCustomer()
+    //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
-      //println(f"Make/Model%%s-20s {Trim}s-20s {Color}s-15s {Engine}s-15s {Price}s-8s Order Date")
+      println("Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
       println("-" * 109)
       while(res.next()){
-        //println(res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
         println(f"${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
     }
     else{
-      println("Customer Not Found")
+      println("\nCustomer Not Found")
     }
   }
 
@@ -139,13 +147,17 @@ object Purchases{
 
   //UPDATE
 
+  //Update A Customers Purchase Information
   def updatePurchase(): Unit = {
-    val customer = getCustomerInfo()
+    val customer = searchCustomer()
+    //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
+      println("ID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
+      println("-" * 115)
       while(res.next()){
-        println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+        println(f"${res.getString(1)}%-5s ${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
       //val orderID = StdIn.readInt()
       val orderID = InputValidation.testID(DAO.getPurchaseIDs())
@@ -153,7 +165,7 @@ object Purchases{
       DAO.writeUpdatePurchase(car, orderID)
     }
     else{
-      println("Customer Not Found")
+      println("\nCustomer Not Found")
     }
 
     //print thier orders,
@@ -163,9 +175,11 @@ object Purchases{
     //update on DAO method
   }
 
+  //Update A Customers Information in DB
   def updateCustomer(): Unit ={
     //Print List of customers and IDs (at least).... READ Function
-    val customer = getCustomerInfo()
+    val customer = searchCustomer()
+    //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       println("\nEnter Updated Info:")
@@ -173,7 +187,7 @@ object Purchases{
       DAO.writeUpdateCustomer(updatedCustomer, customerID)
     }
     else{
-      println("Customer Not Found")
+      println("\nCustomer Not Found")
     }
 
     //Ask for input of ID
@@ -191,36 +205,40 @@ object Purchases{
 
     //DAO.printCustomers()
     //var customerID = StdIn.readInt()
-
-    
   }
 
   //DELETE
+
+  //Delete Purchase from DB
   def deletePurchase(): Unit = {
-    val customer = getCustomerInfo()
+    val customer = searchCustomer()
+    //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
+      println("ID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
+      println("-" * 115)
       while(res.next()){
-        println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+        println(f"${res.getString(1)}%-5s ${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
       val orderID = InputValidation.testID(DAO.getPurchaseIDs()) 
-      //val orderID = StdIn.readInt()
       DAO.deletePurchaseEntry(orderID)
     }
     else{
-      println("Customer Not Found")
+      println("\nCustomer Not Found")
     }
   }
 
+  //Delete Customer and thier Purchases from DB
   def deleteCustomer(): Unit = {
-    val customer = getCustomerInfo()
+    val customer = searchCustomer()
+    //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       DAO.deleteCustomerEntry(customerID)
     }
     else{
-      println("Customer Not Found")
+      println("\nCustomer Not Found")
     }
   }
 }

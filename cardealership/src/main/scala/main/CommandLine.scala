@@ -20,7 +20,7 @@ object CommandLine {
 
     while(runLoop){
       commandMessage()
-      var input = StdIn.readLine()
+      var input = StdIn.readLine().toLowerCase().trim()
 
       input match {
         //CREATE

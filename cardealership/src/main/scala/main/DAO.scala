@@ -33,7 +33,7 @@ object DAO{
       res = stmt.getResultSet()
       res.next()
       customerID = res.getInt(1)
-      println("\nExisting Customer Found!")
+      println("\nExisting Customer Found!\n")
     }
     customerID
   } 
@@ -62,7 +62,7 @@ object DAO{
       var res = stmt.getResultSet()
       res.next()
       customerID = res.getInt(1)
-      println("Inserted New Customer " + customer.firstName + " " + customer.lastName + "Into Database!")
+      println("\nInserted New Customer " + customer.firstName + " " + customer.lastName + " Into Database!")
       //println(s"\nInserted New Customer $customer.firstName $customer.lastName Into Database!")
       //println(customerID)
     }
@@ -79,7 +79,7 @@ object DAO{
     stmt.setFloat(6, car.price)
     stmt.setInt(7, customerID)
     stmt.execute()
-    println("Added New Purchase Into Database!\n")
+    println("\nAdded New Purchase Into Database!")
 
     conn.close()
   }
@@ -94,10 +94,12 @@ object DAO{
 
     val stmt = conn.prepareStatement("SELECT * FROM customers ORDER BY first_name")
     stmt.execute()
-
+    println("ID" + " " * 4 + "Customer" + " " * 23 + "Phone" + " " * 11 + "Address") 
+    println("-" * 100)
     val rs = stmt.getResultSet()
     while(rs.next) {
-      println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + "\t" + rs.getString(4)+  "\t" + rs.getString(5))
+      //println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getString(3) + "\t" + rs.getString(4)+  "\t" + rs.getString(5))
+      println(f"${rs.getInt(1)}%-5s ${rs.getString(2)+ " " + rs.getString(3)}%-30s ${rs.getString(4)}%-15s ${rs.getString(5)}")
     }
     conn.close()
   }
@@ -175,12 +177,14 @@ object DAO{
     val conn = PostgreSQLUtil.getConnection()
 
     //Delete purchases from DB with cusomer ID
+    /*  CHANGED TO ON DELETE CASCADE
     var stmt = conn.prepareStatement("DELETE FROM purchases WHERE customer_fk = ?;")
     stmt.setInt(1, customerID)
     stmt.execute()
+    */
 
     //Delete customer from DB
-    stmt = conn.prepareStatement("DELETE FROM customers WHERE customer_id = ?;")
+    var stmt = conn.prepareStatement("DELETE FROM customers WHERE customer_id = ?;")
     stmt.setInt(1, customerID)
     stmt.execute()
 
