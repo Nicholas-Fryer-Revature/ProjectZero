@@ -6,35 +6,6 @@ import java.sql.ResultSet
 
 object DAO{
   
-//VIEW test of DB  
-  def viewAll(): Unit ={
-    val conn = PostgreSQLUtil.getConnection()
-
-    val stmt = conn.prepareStatement("SELECT * FROM purchases;")
-    stmt.execute()
-
-    val rs = stmt.getResultSet()
-    while(rs.next) {
-      println(rs.getString("make"))
-    }
-    conn.close()
-  }
-
-//Test if row exists
-  def testExists(firstName : String): Unit ={
-    val conn = PostgreSQLUtil.getConnection()
-
-    var stmt = conn.prepareStatement("select exists(select 1 from customers where first_name = ?)")
-    stmt.setString(1, firstName)
-    stmt.execute()
-
-    var res = stmt.getResultSet()
-    res.next()
-    val exists = res.getBoolean(1)
-    println(exists)
-    conn.close()
-  }
-
   //Test if customer exists, True: Return ID, False: Return 0
   def testCustomerExists(customer: Customer): Int ={
     val conn = PostgreSQLUtil.getConnection()
@@ -77,18 +48,6 @@ object DAO{
     var customerID: Int = 0
 
     //Check if customer exists
-    /*
-    var stmt = conn.prepareStatement("select exists(select 1 from customers where first_name = ? and last_name = ? and phone = ?);")
-    stmt.setString(1, customer.firstName)
-    stmt.setString(2, customer.lastName)
-    stmt.setString(3, customer.phone)
-    stmt.execute()
-
-    var res = stmt.getResultSet()
-    res.next()
-    val customerExists = res.getBoolean(1)
-    */
-
     customerID = testCustomerExists(customer)
 
     //insert into customers if customer does not already exist
@@ -108,21 +67,6 @@ object DAO{
       //println(customerID)
     }
 
-    //grab existing customer_id
-    /*
-    else{
-      stmt = conn.prepareStatement("SELECT customer_id FROM customers WHERE first_name = ? and last_name = ? and phone = ?;")
-      stmt.setString(1, customer.firstName)
-      stmt.setString(2, customer.lastName)
-      stmt.setString(3, customer.phone)
-      stmt.execute()
-      
-      res = stmt.getResultSet()
-      res.next()
-      customerID = res.getInt(1)
-      println("\nExisting Customer Found!")
-    }
-    */
     println(s"Customer ID: $customerID")
 
     //Inserting into Purchases table
@@ -143,6 +87,7 @@ object DAO{
 
   //READ
 
+  //**********Change to return result set for use in purchases?***************
   //Print Entire customers table
   def printCustomers(): Unit ={
     val conn = PostgreSQLUtil.getConnection()
@@ -157,30 +102,27 @@ object DAO{
     conn.close()
   }
 
-
-
-  //Return ArrayBuffer of Customer IDs as ints
-  def getCustomerIDs(): ArrayBuffer[Int] ={
+  //Return ArrayBuffer of Purchase IDs as ints
+  def getPurchaseIDs(): ArrayBuffer[Int] ={
     val conn = PostgreSQLUtil.getConnection()
-    var customerIDs = new ArrayBuffer[Int]
+    var IDs = new ArrayBuffer[Int]
 
-    val stmt = conn.prepareStatement("Select customer_id FROM customers;")
+    val stmt = conn.prepareStatement("Select purchase_id FROM purchases;")
     stmt.execute()
 
     val rs = stmt.getResultSet()
     while(rs.next){
-      customerIDs.addOne(rs.getInt(1))
+      IDs.addOne(rs.getInt(1))
     }
     conn.close()
-    customerIDs
+    IDs
   }
-
 
   //Get Purchases by customer_ID
   def getCustomerPurchases(customer_id: Int): ResultSet ={
     val conn = PostgreSQLUtil.getConnection()
     
-    val stmt = conn.prepareStatement("SELECT * FROM purchases WHERE customer_fk = ? ORDER BY purchase_id")
+    val stmt = conn.prepareStatement("SELECT * FROM purchases WHERE customer_fk = ? ORDER BY date DESC;")
     stmt.setInt(1, customer_id)
     stmt.execute()
 

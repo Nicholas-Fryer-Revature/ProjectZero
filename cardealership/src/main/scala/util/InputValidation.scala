@@ -1,6 +1,7 @@
 package util
 
 import scala.io.StdIn
+import scala.collection.mutable.ArrayBuffer
 
 object InputValidation {
   
@@ -15,11 +16,11 @@ object InputValidation {
       
       if(input.matches("[0-9]{3}-[0-9]{3}-[0-9]{4}")){
         phone = input
-        isValidNumber = false
+        isValidNumber = true
       }
       else if(input.matches("[0-9]{3}[0-9]{3}[0-9]{4}")){
         phone = input.substring(0, 3) + "-" +  input.substring(3, 6) + "-" + input.substring(6)
-        isValidNumber = false
+        isValidNumber = true
       }
       else{
         println("Invalid Phone Number. Try Again")
@@ -36,7 +37,7 @@ object InputValidation {
     while(!isValidPrice){
       var input = StdIn.readLine().trim()
 
-      if(input.matches("\\d+.?\\d*")){
+      if(input.matches("\\d+\\.?\\d*")){
         price = input.toFloat
         price = BigDecimal(price).setScale(2, BigDecimal.RoundingMode.HALF_UP).toFloat
         isValidPrice = true
@@ -64,6 +65,23 @@ object InputValidation {
       }
     }
     index
+  }
+
+  //Test if input is valid ID, return ID
+  def testID(ids: ArrayBuffer[Int]): Int ={
+    var id: Int = 0
+    var isValidId = false
+    while(!isValidId){
+      var input = StdIn.readLine()
+      if(input.matches("^[1-9]\\d*") && ids.contains(input.toInt)){
+        id = input.toInt
+        isValidId = true
+      } 
+      else{
+        println("Invalid ID! Try Again")
+      }       
+    }
+    id
   }
 
 }

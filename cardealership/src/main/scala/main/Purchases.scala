@@ -95,12 +95,18 @@ object Purchases{
     customer
   }
 
+  //*********Get Customer name, number for queries************
+
+
+  //CREATE
+  //get car and customer info and call DAO insert 
   def newPurchase(): Unit ={
     val newCarConfig = getCarChoice()
     val purchaser = getCustomerInfo()
     DAO.insertPuchase(purchaser, newCarConfig)
   }
 
+  //idk what this was supposed to do, too generic name
   def viewCustomers(): Unit ={
 
 
@@ -112,8 +118,11 @@ object Purchases{
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
+      //println(f"Make/Model%%s-20s {Trim}s-20s {Color}s-15s {Engine}s-15s {Price}s-8s Order Date")
+      println("-" * 109)
       while(res.next()){
-        println(res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+        //println(res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
+        println(f"${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
     }
     else{
@@ -138,7 +147,8 @@ object Purchases{
       while(res.next()){
         println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
       }
-      val orderID = StdIn.readInt()
+      //val orderID = StdIn.readInt()
+      val orderID = InputValidation.testID(DAO.getPurchaseIDs())
       val car = getCarChoice()
       DAO.writeUpdatePurchase(car, orderID)
     }
@@ -194,7 +204,8 @@ object Purchases{
       while(res.next()){
         println(res.getInt(1) + " " + res.getString(2) + " " + res.getString(3) + " " + res.getString(4) + " " + res.getString(5) + " " + res.getString(6) + " " + res.getString(7) + " " + res.getString(8))
       }
-      val orderID = StdIn.readInt()
+      val orderID = InputValidation.testID(DAO.getPurchaseIDs()) 
+      //val orderID = StdIn.readInt()
       DAO.deletePurchaseEntry(orderID)
     }
     else{
@@ -212,5 +223,4 @@ object Purchases{
       println("Customer Not Found")
     }
   }
-
 }
