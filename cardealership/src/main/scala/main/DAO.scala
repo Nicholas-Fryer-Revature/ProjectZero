@@ -3,6 +3,9 @@ package main
 import util.PostgreSQLUtil
 import scala.collection.mutable.ArrayBuffer
 import java.sql.ResultSet
+import scalaz.Alpha
+import resources.CarConfig
+import resources.Customer
 
 object DAO{
   
@@ -33,11 +36,27 @@ object DAO{
       res = stmt.getResultSet()
       res.next()
       customerID = res.getInt(1)
-      println("\nExisting Customer Found!\n")
+      println("\nExisting Customer Found!")
     }
+    conn.close()
     customerID
   } 
 
+  //Test whether an attempted updated Phone number matches any other row other than the pk's
+  def testCustomerPhoneExists(phone: String, customerID: Int): Boolean ={
+    val conn = PostgreSQLUtil.getConnection()
+    
+    var stmt = conn.prepareStatement("SELECT EXISTS(SELECT 1 FROM customers WHERE phone = ? AND customer_id != ?);")
+    stmt.setString(1, phone)
+    stmt.setInt(2, customerID)
+    stmt.execute()
+
+    var res = stmt.getResultSet()
+    res.next()
+    val phoneExists = res.getBoolean(1)
+    conn.close()
+    phoneExists
+  }
 
   //CREATE
 
@@ -63,8 +82,6 @@ object DAO{
       res.next()
       customerID = res.getInt(1)
       println("\nInserted New Customer " + customer.firstName + " " + customer.lastName + " Into Database!")
-      //println(s"\nInserted New Customer $customer.firstName $customer.lastName Into Database!")
-      //println(customerID)
     }
 
     println(s"Customer ID: $customerID")
@@ -84,7 +101,6 @@ object DAO{
     conn.close()
   }
 
-
   //READ
 
   //**********Change to return result set for use in purchases?***************
@@ -94,7 +110,7 @@ object DAO{
 
     val stmt = conn.prepareStatement("SELECT * FROM customers ORDER BY first_name")
     stmt.execute()
-    println("ID" + " " * 4 + "Customer" + " " * 23 + "Phone" + " " * 11 + "Address") 
+    println("\nID" + " " * 4 + "Customer" + " " * 23 + "Phone" + " " * 11 + "Address") 
     println("-" * 100)
     val rs = stmt.getResultSet()
     while(rs.next) {
@@ -105,11 +121,12 @@ object DAO{
   }
 
   //Return ArrayBuffer of Purchase IDs as ints
-  def getPurchaseIDs(): ArrayBuffer[Int] ={
+  def getPurchaseIDs(customerID: Int): ArrayBuffer[Int] ={
     val conn = PostgreSQLUtil.getConnection()
     var IDs = new ArrayBuffer[Int]
 
-    val stmt = conn.prepareStatement("Select purchase_id FROM purchases;")
+    val stmt = conn.prepareStatement("Select purchase_id FROM purchases WHERE customer_fk = ?;")
+    stmt.setInt(1, customerID)
     stmt.execute()
 
     val rs = stmt.getResultSet()
@@ -120,7 +137,7 @@ object DAO{
     IDs
   }
 
-  //Get Purchases by customer_ID
+  //Get Purchases by customer_ID, return result set
   def getCustomerPurchases(customer_id: Int): ResultSet ={
     val conn = PostgreSQLUtil.getConnection()
     
@@ -132,7 +149,6 @@ object DAO{
     conn.close()
     res
   }
-
 
   //UPDATE
 
@@ -154,7 +170,7 @@ object DAO{
     conn.close()
   }
 
-  //UPDATE customer information, NEED TEST
+  //UPDATE customer information
   def writeUpdateCustomer(customer: Customer, customerID: Int): Unit ={
     val conn = PostgreSQLUtil.getConnection()
 
@@ -175,13 +191,6 @@ object DAO{
   //DELETE Customer & Cars purchased from customer
   def deleteCustomerEntry(customerID: Int): Unit ={
     val conn = PostgreSQLUtil.getConnection()
-
-    //Delete purchases from DB with cusomer ID
-    /*  CHANGED TO ON DELETE CASCADE
-    var stmt = conn.prepareStatement("DELETE FROM purchases WHERE customer_fk = ?;")
-    stmt.setInt(1, customerID)
-    stmt.execute()
-    */
 
     //Delete customer from DB
     var stmt = conn.prepareStatement("DELETE FROM customers WHERE customer_id = ?;")

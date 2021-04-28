@@ -2,11 +2,15 @@ package main
 import scala.io.StdIn
 import java.sql.ResultSet
 import util.InputValidation
+import util.JSONUtil
+import resources.CarConfig
+import resources.Customer
+import resources.Car
 
 object Purchases{
 
   def getCarChoice(): CarConfig ={
-     println("Cars Available: ")
+     println("\nCars Available: ")
   
     //Make & Model Selection
     var i = 1
@@ -89,7 +93,7 @@ object Purchases{
     customer
   }
 
-  //*********Get Customer name, number for queries************
+  //Get Customer name, number for queries
   def searchCustomer(): Customer ={
     println("\nPurchaser's First Name:")
     val customerFirstName = StdIn.readLine()
@@ -105,19 +109,13 @@ object Purchases{
     customer
   }
 
-
   //CREATE
+
   //get car and customer info and call DAO insert 
   def newPurchase(): Unit ={
     val newCarConfig = getCarChoice()
     val purchaser = getCustomerInfo()
     DAO.insertPuchase(purchaser, newCarConfig)
-  }
-
-  //idk what this was supposed to do, too generic name
-  def viewCustomers(): Unit ={
-
-
   }
 
   //View Purchase Based on Customer name & phone
@@ -127,7 +125,7 @@ object Purchases{
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
-      println("Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
+      println("\nMake/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
       println("-" * 109)
       while(res.next()){
         println(f"${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
@@ -137,13 +135,12 @@ object Purchases{
       println("\nCustomer Not Found")
     }
   }
-
-  //view list of customers and IDs
+  
+  //******FUTURE IMPLENTATION********
   //view makeOrders sum of orders by brand and each models total
   //view ModelOrders sum of orders of model
   //view TotalOrders total number of orders, maybe of each model
   //view TotalSales sum of sales
-
 
   //UPDATE
 
@@ -154,25 +151,19 @@ object Purchases{
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
-      println("ID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
+      println("\nID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
       println("-" * 115)
       while(res.next()){
         println(f"${res.getString(1)}%-5s ${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
       //val orderID = StdIn.readInt()
-      val orderID = InputValidation.testID(DAO.getPurchaseIDs())
+      val orderID = InputValidation.testID(DAO.getPurchaseIDs(customerID))
       val car = getCarChoice()
       DAO.writeUpdatePurchase(car, orderID)
     }
     else{
       println("\nCustomer Not Found")
     }
-
-    //print thier orders,
-    //get thier order ID
-    //ask for order ID
-    //get car config
-    //update on DAO method
   }
 
   //Update A Customers Information in DB
@@ -182,29 +173,18 @@ object Purchases{
     //val customer = getCustomerInfo()
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
-      println("\nEnter Updated Info:")
+      println("Enter Updated Info:")
       val updatedCustomer = getCustomerInfo()
-      DAO.writeUpdateCustomer(updatedCustomer, customerID)
+      if(DAO.testCustomerPhoneExists(updatedCustomer.phone, customerID) == false){
+        DAO.writeUpdateCustomer(updatedCustomer, customerID)
+      }
+      else{
+        println("\nCannot Update Customer! Duplicate Entry")
+      }
     }
     else{
       println("\nCustomer Not Found")
     }
-
-    //Ask for input of ID
-    //Check if ID input is valid
-    //getCustomerInfo()
-    //Write to DB where ID = input
-
-    /**
-      * Need to check the DB if exists, if you donk up inserting with a typo itll write a new 
-      * customer. Thus, when you update, after you make the change you need to check if it exists, 
-      * if it does, delete the donked up one. You would then have to change reference of the FK 
-      * in the purchases of the donked up customer insert to the correct one, so in delete function 
-      * need to have the customer and purchase deletes separate
-      */
-
-    //DAO.printCustomers()
-    //var customerID = StdIn.readInt()
   }
 
   //DELETE
@@ -216,12 +196,12 @@ object Purchases{
     val customerID = DAO.testCustomerExists(customer)
     if(customerID != 0){
       val res = DAO.getCustomerPurchases(customerID)
-      println("ID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
+      println("\nID" + " " * 4 + "Make/Model" + " " * 11 + "Trim" + " " * 17 + "Color" + " " * 11 + "Engine" + " " * 10 + "Price" + "    " + "Order Date")
       println("-" * 115)
       while(res.next()){
         println(f"${res.getString(1)}%-5s ${res.getString(2) + " " + res.getString(3)}%-20s ${res.getString(4)}%-20s ${res.getString(5)}%-15s ${res.getString(6)}%-15s ${res.getString(7)}%-8s ${res.getString(8)}")
       }
-      val orderID = InputValidation.testID(DAO.getPurchaseIDs()) 
+      val orderID = InputValidation.testID(DAO.getPurchaseIDs(customerID)) 
       DAO.deletePurchaseEntry(orderID)
     }
     else{
